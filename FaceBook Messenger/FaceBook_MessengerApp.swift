@@ -11,7 +11,7 @@ import SwiftUI
 struct FaceBook_MessengerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }

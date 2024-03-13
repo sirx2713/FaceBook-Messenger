@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2ECF9DD52BA1A4D0009BCA4D /* FaceBook_MessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF9DD42BA1A4D0009BCA4D /* FaceBook_MessengerApp.swift */; };
-		2ECF9DD72BA1A4D0009BCA4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF9DD62BA1A4D0009BCA4D /* ContentView.swift */; };
+		2ECF9DD72BA1A4D0009BCA4D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF9DD62BA1A4D0009BCA4D /* LoginView.swift */; };
 		2ECF9DD92BA1A4D2009BCA4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECF9DD82BA1A4D2009BCA4D /* Assets.xcassets */; };
 		2ECF9DDC2BA1A4D2009BCA4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECF9DDB2BA1A4D2009BCA4D /* Preview Assets.xcassets */; };
+		2ECF9DE32BA1AFB6009BCA4D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF9DE22BA1AFB6009BCA4D /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2ECF9DD12BA1A4D0009BCA4D /* FaceBook Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FaceBook Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECF9DD42BA1A4D0009BCA4D /* FaceBook_MessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBook_MessengerApp.swift; sourceTree = "<group>"; };
-		2ECF9DD62BA1A4D0009BCA4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2ECF9DD62BA1A4D0009BCA4D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		2ECF9DD82BA1A4D2009BCA4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ECF9DDB2BA1A4D2009BCA4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2ECF9DE22BA1AFB6009BCA4D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				2ECF9DD42BA1A4D0009BCA4D /* FaceBook_MessengerApp.swift */,
-				2ECF9DD62BA1A4D0009BCA4D /* ContentView.swift */,
+				2ECF9DD62BA1A4D0009BCA4D /* LoginView.swift */,
+				2ECF9DE22BA1AFB6009BCA4D /* SignUpView.swift */,
 				2ECF9DD82BA1A4D2009BCA4D /* Assets.xcassets */,
 				2ECF9DDA2BA1A4D2009BCA4D /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ECF9DD72BA1A4D0009BCA4D /* ContentView.swift in Sources */,
+				2ECF9DD72BA1A4D0009BCA4D /* LoginView.swift in Sources */,
+				2ECF9DE32BA1AFB6009BCA4D /* SignUpView.swift in Sources */,
 				2ECF9DD52BA1A4D0009BCA4D /* FaceBook_MessengerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
